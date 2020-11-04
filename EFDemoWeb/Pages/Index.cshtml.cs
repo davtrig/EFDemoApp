@@ -10,6 +10,15 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
+//Benefits of Entity Framework Core
+// 1. Faster development speed
+// 2. You don't have to know SQL
+
+// Benefits of Dapper
+// 1. Faster in production
+// 2. Easier to work with for SQL Developer
+// 3. Design for loose coupling
+
 namespace EFDemoWeb.Pages
 {
     public class IndexModel : PageModel
